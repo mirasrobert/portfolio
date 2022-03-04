@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Michroma', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#about-section {
+  height: 550px;
+}
+
+.hero-wrapper {
+  min-height: calc(100vh - 76.8px);
+}
+
+.hero-caption {
+  font-size: 2.6rem;
+  color: #141c3a;
+}
+
+.hero-subtitle-size {
+  font-size: 1.2rem;
+  color: #0a0a0ae6;
+}
+
+.skills-card {
+  width: 75%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: -43%;
+  text-align: center;
+  height: auto;
+}
+
+.skills-icons {
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  color: #111;
+}
+
+.skill-item {
+  font-size: 3rem;
+  color: rgb(51 65 85);
+}
+
+.projects-section {
+  margin-top: 300px;
+}
+
+.hero-text-color {
+  color: #141c3a;
+}
+
+.project-card-items {
+  position: relative;
+  width: 100%;
+  height: 260px;
+}
+
+.project-caption {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0rem 3rem;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.45s ease-in-out;
+  transition: 0.45s ease-in-out;
+  z-index: 100;
+  opacity: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.45s ease-in-out;
+  transition: 0.45s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 0.5rem;
+  opacity: 0;
+}
+
+/* When Project Caption/Image Hovers/Hold_Clicked then Add Opacity to Overlay */
+.project-caption:hover + .overlay {
+  opacity: 1;
+}
+
+.project-caption:active + .overlay {
+  opacity: 1;
+}
+
+/* SHow Text */
+.project-caption:hover {
+  opacity: 1;
+}
+
+.project-caption:active {
+  opacity: 1;
+}
+
+/* Extra small devices (phones, 800px and down) */
+@media only screen and (max-width: 800px) {
+  #about-section {
+    height: auto;
+  }
+
+  .skills-card {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    overflow: auto;
+    height: 100%;
+  }
+
+  .projects-section {
+    margin-top: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 800px and up) */
+@media only screen and (min-width: 800px) {
+  .projects-section {
+    margin-top: 300px;
+  }
+}
