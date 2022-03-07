@@ -112,7 +112,7 @@ const Projects = () => {
 
             <div className='project-caption text-white'>
               <p>
-                Online store with paypal payments intergration and guest user
+                Online store with paypal payments integration and guest user
                 shopping.
               </p>
 
