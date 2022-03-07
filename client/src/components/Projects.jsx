@@ -122,7 +122,7 @@ const Projects = () => {
 
               <div className='flex space-x-3'>
                 <a
-                  href='http://mewtronshop.herokuapp.com'
+                  href='https://mewtronshop.herokuapp.com/'
                   target={'_blank'}
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i className='fas fa-eye'></i> Demo
