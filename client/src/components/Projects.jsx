@@ -3,6 +3,7 @@ import fileDownload from 'js-file-download'
 
 import psbc from '../img/psbc_website_screenshot.PNG'
 import githubfinder from '../img/github_finder_website_screenshot.PNG'
+import socialite from '../img/SOCIALITE_SCREENSHOT.PNG'
 
 const Projects = () => {
   const downloadResumeHandler = async (e) => {
@@ -79,7 +80,7 @@ const Projects = () => {
             <img
               className='w-full h-full rounded-lg object-cover shadow-xl'
               src={psbc}
-              alt='img'
+              alt='img2'
             />
 
             <div className='project-caption text-white'>
@@ -107,7 +108,7 @@ const Projects = () => {
             <img
               className='w-full h-full rounded-lg object-cover shadow-xl'
               src='https://raw.githubusercontent.com/mirasrobert/laravel8-ecommerce/main/public/img/WEBSITE_SCREENSHOT.png'
-              alt='img'
+              alt='img3'
             />
 
             <div className='project-caption text-white'>
@@ -130,6 +131,42 @@ const Projects = () => {
 
                 <a
                   href='https://github.com/mirasrobert/laravel8-ecommerce/'
+                  target={'_blank'}
+                  className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
+                  <i class='fas fa-code'></i> Code
+                </a>
+              </div>
+            </div>
+            <div className='overlay'></div>
+          </div>
+
+          <div className='project-card-items bg-white shadow-xl rounded-lg'>
+            <img
+              className='w-full h-full rounded-lg object-cover shadow-xl'
+              src={socialite}
+              alt='img4'
+            />
+
+            <div className='project-caption text-white'>
+              <p>
+                Social networking site with login, registration, profile, and a
+                post feature.
+              </p>
+
+              <small className='font-sm text-violet-500'>
+                Tools: MongoDB, Express, ReactJS, NodeJS, Bootstrap,
+              </small>
+
+              <div className='flex space-x-3'>
+                <a
+                  href='https://codegramapp.herokuapp.com/'
+                  target={'_blank'}
+                  className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
+                  <i className='fas fa-eye'></i> Demo
+                </a>
+
+                <a
+                  href='https://github.com/mirasrobert/socialite'
                   target={'_blank'}
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i class='fas fa-code'></i> Code

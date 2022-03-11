@@ -9,13 +9,15 @@ const About = () => {
         </h1>
         <div className='flex justify-center'>
           <h2 className='text-base w-full md:w-9/12	lg:w-6/12  font-normal leading-7'>
-            I'm an aspiring web developer especially a back-end engineer. Since
-            the beginning of my journey, I build new projects just to tickle my
-            brain and I spend a large amount of my free time exploring the
-            latest technology advancements in web development world. Apart from
-            being a web developer, I enjoy most of my time being outdoors. I was
-            a choir member and I love to sing to relax my mind especially when
-            long facing computers.
+            I'm web developer and I treat programming not only a type of
+            profession or hobby, but programming brings happiness when I'm
+            creating applications that can help especially when I'm working in
+            back-end side. Since the beginning of my journey, I build new
+            projects just to tickle my brain and I spend a large amount of my
+            free time exploring the latest technology advancements in web
+            development world. Apart from being a web developer, I enjoy most of
+            my time being outdoors. I was a choir member and I love to sing to
+            relax my mind especially when long facing computers.
           </h2>
         </div>
       </div>
