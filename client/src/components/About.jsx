@@ -62,6 +62,9 @@ const About = () => {
               <li className='skill-item'>
                 <i className='fab fa-node'></i>
               </li>
+              <li className='skill-item'>
+                <i className='fab fa-git'></i>
+              </li>
             </ul>
           </div>
         </div>
