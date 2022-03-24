@@ -5,11 +5,13 @@ import psbc from '../img/psbc_website_screenshot.PNG'
 import githubfinder from '../img/github_finder_website_screenshot.PNG'
 import socialite from '../img/SOCIALITE_SCREENSHOT.PNG'
 
+const downloadLink = 'https://robertmiras.herokuapp.com/download-resume'
+
 const Projects = () => {
   const downloadResumeHandler = async (e) => {
     e.preventDefault()
 
-    const response = await axios.get('/download-resume', {
+    const response = await axios.get(downloadLink, {
       responseType: 'blob',
     })
 
