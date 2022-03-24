@@ -68,7 +68,7 @@ const Projects = () => {
                 </a>
 
                 <a
-                  href='https://github-finder-vue.herokuapp.com/'
+                  href='https://github.com/mirasrobert/github-finder'
                   target={'_blank'}
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i class='fas fa-code'></i> Code
