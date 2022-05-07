@@ -17,7 +17,7 @@ const Hero = () => {
             width={250}
             height={250}
             src={me}
-            alt='Robert Miras Photo'
+            alt='Robert Miras'
           />
         </div>
       </div>
