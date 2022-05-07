@@ -1,8 +1,6 @@
-import { useState, useEffect } from 'react'
-
 const Footer = () => {
   const d = new Date()
-  const [date, setDate] = useState(d.getFullYear())
+  const year = d.getFullYear()
 
   return (
     <footer className='bg-violet-700 text-white'>
@@ -17,30 +15,39 @@ const Footer = () => {
         <ul className='skills-icons flex justify-center items-center space-x-2 md:space-x-8 list-none'>
           <a
             href='https://www.linkedin.com/in/robert-miras/'
-            target='_blank
-          '>
+            target='_blank'
+            rel='noreferrer'>
             <li className='border border-white px-3 py-2 rounded-full text-4xl text-white hover:bg-white hover:text-violet-700'>
               <i className='fab fa-linkedin-in'></i>
             </li>
           </a>
-          <a href='https://web.facebook.com/MirasRobert' target='_blank'>
+          <a
+            href='https://web.facebook.com/MirasRobert'
+            target='_blank'
+            rel='noreferrer'>
             <li className='border border-white px-3 py-2 rounded-full text-4xl text-white hover:bg-white hover:text-violet-700'>
               <i className='fab fa-facebook'></i>
             </li>
           </a>
-          <a href='https://www.instagram.com/robertmiras/' target='_blank'>
+          <a
+            href='https://www.instagram.com/robertmiras/'
+            target='_blank'
+            rel='noreferrer'>
             <li className='border border-white px-3 py-2 rounded-full text-4xl text-white hover:bg-white hover:text-violet-700'>
               <i className='fab fa-instagram'></i>
             </li>
           </a>
-          <a href='http://github.com/mirasrobert' target='_blank'>
+          <a
+            href='http://github.com/mirasrobert'
+            target='_blank'
+            rel='noreferrer'>
             <li className='border border-white px-3 py-2 rounded-full text-4xl text-white hover:bg-white hover:text-violet-700'>
               <i className='fab fa-github'></i>
             </li>
           </a>
         </ul>
 
-        <p className='text-white mt-8'>Copyright &copy; {date}, Robert Miras</p>
+        <p className='text-white mt-8'>Copyright &copy; {year}, Robert Miras</p>
       </div>
     </footer>
   )

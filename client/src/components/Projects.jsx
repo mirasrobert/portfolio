@@ -46,7 +46,7 @@ const Projects = () => {
             <img
               className='w-full h-full rounded-lg object-cover shadow-xl'
               src={githubfinder}
-              alt='img'
+              alt='githubfinder'
             />
 
             <div className='project-caption text-white'>
@@ -82,7 +82,7 @@ const Projects = () => {
             <img
               className='w-full h-full rounded-lg object-cover shadow-xl'
               src={psbc}
-              alt='img2'
+              alt='psbc'
             />
 
             <div className='project-caption text-white'>
@@ -110,7 +110,7 @@ const Projects = () => {
             <img
               className='w-full h-full rounded-lg object-cover shadow-xl'
               src='https://raw.githubusercontent.com/mirasrobert/laravel8-ecommerce/main/public/img/WEBSITE_SCREENSHOT.png'
-              alt='img3'
+              alt='mewtron'
             />
 
             <div className='project-caption text-white'>
@@ -146,7 +146,7 @@ const Projects = () => {
             <img
               className='w-full h-full rounded-lg object-cover shadow-xl'
               src={socialite}
-              alt='img4'
+              alt='socialite'
             />
 
             <div className='project-caption text-white'>

@@ -1,7 +1,4 @@
-import React from 'react'
-
 import me from '../me.png'
-import hero from '../hero.svg'
 
 const Hero = () => {
   return (
