@@ -63,6 +63,7 @@ const Projects = () => {
                 <a
                   href='https://github-finder-vue.herokuapp.com/'
                   target={'_blank'}
+                  rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i className='fas fa-eye'></i> Demo
                 </a>
@@ -70,6 +71,7 @@ const Projects = () => {
                 <a
                   href='https://github.com/mirasrobert/github-finder'
                   target={'_blank'}
+                  rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i class='fas fa-code'></i> Code
                 </a>
@@ -98,6 +100,7 @@ const Projects = () => {
                 <a
                   href='https://iampsbc.com/'
                   target={'_blank'}
+                  rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i className='fas fa-eye'></i> Demo
                 </a>
@@ -127,6 +130,7 @@ const Projects = () => {
                 <a
                   href='https://mewtronshop.herokuapp.com/'
                   target={'_blank'}
+                  rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i className='fas fa-eye'></i> Demo
                 </a>
@@ -134,6 +138,7 @@ const Projects = () => {
                 <a
                   href='https://github.com/mirasrobert/laravel8-ecommerce/'
                   target={'_blank'}
+                  rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i class='fas fa-code'></i> Code
                 </a>
@@ -163,6 +168,7 @@ const Projects = () => {
                 <a
                   href='https://codegramapp.herokuapp.com/'
                   target={'_blank'}
+                  rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i className='fas fa-eye'></i> Demo
                 </a>
@@ -170,6 +176,7 @@ const Projects = () => {
                 <a
                   href='https://github.com/mirasrobert/socialite'
                   target={'_blank'}
+                  rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i class='fas fa-code'></i> Code
                 </a>
