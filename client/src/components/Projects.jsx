@@ -4,6 +4,7 @@ import fileDownload from 'js-file-download'
 import psbc from '../img/psbc_website_screenshot.PNG'
 import githubfinder from '../img/github_finder_website_screenshot.PNG'
 import socialite from '../img/SOCIALITE_SCREENSHOT.PNG'
+import housemarketplace from '../img/house_marketplace_screenshot.PNG'
 
 const downloadLink = 'https://robertmiras.herokuapp.com/download-resume'
 
@@ -175,6 +176,40 @@ const Projects = () => {
 
                 <a
                   href='https://github.com/mirasrobert/socialite'
+                  target={'_blank'}
+                  rel='noreferrer'
+                  className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
+                  <i class='fas fa-code'></i> Code
+                </a>
+              </div>
+            </div>
+            <div className='overlay'></div>
+          </div>
+          <div className='project-card-items bg-white shadow-xl rounded-lg'>
+            <img
+              className='w-full h-full rounded-lg object-cover shadow-xl'
+              src={housemarketplace}
+              alt='housemarketplace'
+            />
+
+            <div className='project-caption text-white'>
+              <p>A real-estate website built in Laravel & VueJS</p>
+
+              <small className='font-sm text-violet-500'>
+                Tools: MySQL, VueJS, Laravel, TailwindCSS
+              </small>
+
+              <div className='flex space-x-3'>
+                <a
+                  href='https://homemarketplace.herokuapp.com/'
+                  target={'_blank'}
+                  rel='noreferrer'
+                  className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
+                  <i className='fas fa-eye'></i> Demo
+                </a>
+
+                <a
+                  href='https://github.com/mirasrobert/laravue-realestate'
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
