@@ -38,6 +38,9 @@ const Footer = () => {
       })
 
     seIsClicked(false)
+
+    // Clear Form
+    e.target.reset()
   }
 
   return (
