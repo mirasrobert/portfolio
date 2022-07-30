@@ -1,9 +1,101 @@
+import { useState } from 'react'
+import axios from 'axios'
+import { toast } from 'react-toastify'
+
 const Footer = () => {
+  const [isClicked, seIsClicked] = useState(false)
+
   const d = new Date()
   const year = d.getFullYear()
 
+  const onSubmit = (e) => {
+    seIsClicked(true)
+    e.preventDefault()
+
+    // validate forms
+    const name = e.target.name.value
+    const email = e.target.email.value
+    const message = e.target.message.value
+
+    if (name === '' || email === '' || message === '') {
+      toast.error('Please fill all fields')
+      return
+    }
+
+    const data = {
+      name,
+      email,
+      message,
+    }
+
+    axios
+      .post('/api/contact', data)
+      .then((res) => {
+        toast.success(res.data.message)
+      })
+      .catch((err) => {
+        toast.error(err.response.data.message)
+      })
+
+    seIsClicked(false)
+  }
+
   return (
-    <footer className='bg-violet-700 text-white'>
+    <footer className='bg-violet-700 text-white' id='footer-contact'>
+      <div className='mx-auto text-center pt-10 pb-5 px-4'>
+        <h1 className='text-2xl font-bold text-white'>Contact Me</h1>
+        <p>Want to discuss a project or just chat? Feel free to contact me</p>
+      </div>
+
+      {/* Create a contact form */}
+      <div className='container px-5 mx-auto sm:w-100 md:w-1/2'>
+        <div className='bg-white rounded-md shadow-md p-5'>
+          <form onSubmit={onSubmit} method='POST'>
+            <label class='block mb-6'>
+              <span class='block text-gray-700 text-sm font-medium'>Name</span>
+
+              <input
+                type='text'
+                name='name'
+                class='mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-gray-700 text-sm shadow-sm placeholder-slate-400
+                  focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500'
+              />
+            </label>
+
+            <label class='block mb-6'>
+              <span class='block text-gray-700 text-sm font-medium'>Email</span>
+
+              <input
+                type='email'
+                name='email'
+                class='mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-gray-700 text-sm shadow-sm placeholder-slate-400
+                  focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500'
+              />
+            </label>
+            <label class='block mb-6'>
+              <span class='block text-gray-700 text-sm font-medium'>
+                Message
+              </span>
+
+              <textarea
+                name='message'
+                rows={4}
+                class='mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-gray-700 text-sm shadow-sm placeholder-slate-400
+                  focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500'></textarea>
+            </label>
+
+            <div className='flex items-center justify-between'>
+              <button
+                disabled={isClicked}
+                type='submit'
+                class='bg-sky-600 hover:bg-sky-700 px-5 py-2 focus:ring-sky-500 rounded-full text-sm hover:cursor-pointer'>
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
       <div className='container px-5 mx-auto py-8 text-center'>
         <h5 className='text-lg italic text-slate-300'>
           "Coding everyday keeps the bug away."

@@ -91,6 +91,11 @@ const Navbar = () => {
                 About
               </a>
               <a
+                className='text-sm block my-3 md:my-0 md:inline-block text-lg hover:text-violet-700'
+                href='#footer-contact'>
+                Contact Me
+              </a>
+              <a
                 href='#projects-section'
                 className='bg-transparent border border-violet-700 border-2 text-violet-700 px-4 py-2 focus:outline-none focus:border-violet-100 focus:ring-violet-100 focus:ring focus:ring-violet-500 rounded-full hover:bg-violet-600 hover:text-white'>
                 My Projects

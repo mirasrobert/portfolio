@@ -4,6 +4,10 @@ import About from './components/About'
 import Footer from './components/layouts/Footer'
 import Projects from './components/Projects'
 
+// Toast
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
 const App = () => {
   return (
     <>
@@ -15,6 +19,7 @@ const App = () => {
       <About />
       <Projects />
       <Footer />
+      <ToastContainer />
     </>
   )
 }
