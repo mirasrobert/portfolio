@@ -45,8 +45,8 @@ router.post('/', (req, res) => {
 
   let details = {
     from: `${name} <${sender}>`,
-    to: process.env.EMAIL_USER,
-    subject: `Portfolio Contact Request`,
+    to: 'mrmirasrobert@gmail.com',
+    subject: `Portfolio Contact Request <${sender}>`,
     text: 'Portfolio Contact Request',
     html: output,
   }
