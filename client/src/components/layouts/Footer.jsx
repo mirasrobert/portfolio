@@ -24,12 +24,12 @@ const Footer = () => {
 
     const data = {
       name,
-      email,
+      sender: email,
       message,
     }
 
     axios
-      .post('/api/contact', data)
+      .post('https://robertmiras.herokuapp.com/api/contact', data)
       .then((res) => {
         toast.success(res.data.message)
       })
