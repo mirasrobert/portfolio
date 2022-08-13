@@ -14,8 +14,24 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  font-family: 'eurostile', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-links a {
+  font-family: 'europa', sans-serif;
+}
+
 #about-section {
   height: 550px;
+}
+
+.about-me {
+  font-family: 'europa', sans-serif;
+  line-height: 1.8;
+  font-weight: 400 !important;
+  word-break: break-word;
 }
 
 .hero-wrapper {
@@ -23,13 +39,20 @@ html {
 }
 
 .hero-caption {
+  font-family: 'eurostile', sans-serif;
   font-size: 2.6rem;
   color: #141c3a;
 }
 
 .hero-subtitle-size {
+  font-family: 'europa', sans-serif;
+  line-height: 1.5;
   font-size: 1.2rem;
   color: #0a0a0ae6;
+}
+
+.contact-subtitle {
+  color: #eee !important;
 }
 
 .skills-card {
@@ -118,6 +141,31 @@ html {
 
 .project-caption:active {
   opacity: 1;
+}
+
+#footer-contact {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(109, 40, 217, 0.8);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(109, 40, 217);
 }
 
 /* Extra small devices (phones, 800px and down) */

@@ -24,8 +24,8 @@ const Projects = () => {
       id='projects-section'
       className='projects-section py-24 md:py-20 text-center'>
       <div className='mb-10 md:mb-20 px-4 md:px-0'>
-        <h1 className='text-2xl font-bold hero-text-color'>My Projects</h1>
-        <p>
+        <h1 className='font-bold hero-text-color'>My Projects</h1>
+        <p className='hero-subtitle-size'>
           Here are a few personal projects I've worked on recently. Want to get
           my CV?{' '}
           <a
@@ -74,7 +74,7 @@ const Projects = () => {
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
-                  <i class='fas fa-code'></i> Code
+                  <i className='fas fa-code'></i> Code
                 </a>
               </div>
             </div>
@@ -141,7 +141,7 @@ const Projects = () => {
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
-                  <i class='fas fa-code'></i> Code
+                  <i className='fas fa-code'></i> Code
                 </a>
               </div>
             </div>
@@ -179,7 +179,7 @@ const Projects = () => {
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
-                  <i class='fas fa-code'></i> Code
+                  <i className='fas fa-code'></i> Code
                 </a>
               </div>
             </div>
@@ -213,7 +213,7 @@ const Projects = () => {
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
-                  <i class='fas fa-code'></i> Code
+                  <i className='fas fa-code'></i> Code
                 </a>
               </div>
             </div>

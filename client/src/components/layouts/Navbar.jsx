@@ -27,7 +27,7 @@ const Navbar = () => {
   }, [windowWidth])
 
   return (
-    <nav className='bg-white pb-4 pt-5'>
+    <nav className='bg-white pb-4 pt-8'>
       <div className='container mx-auto px-5'>
         <div className='block md:flex justify-between items-center text-black'>
           <div className='logo flex justify-between md:block'>
@@ -97,7 +97,7 @@ const Navbar = () => {
               </a>
               <a
                 href='#projects-section'
-                className='bg-transparent border border-violet-700 border-2 text-violet-700 px-4 py-2 focus:outline-none focus:border-violet-100 focus:ring-violet-100 focus:ring focus:ring-violet-500 rounded-full hover:bg-violet-600 hover:text-white'>
+                className='bg-transparent border border-violet-700 border-2 text-violet-700 px-5 py-3 focus:outline-none focus:border-violet-100 focus:ring-violet-100 focus:ring focus:ring-violet-500 rounded-full hover:bg-violet-600 hover:text-white'>
                 My Projects
               </a>
             </div>

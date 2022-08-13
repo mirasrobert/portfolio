@@ -8,15 +8,15 @@ const About = () => {
           Hi, I’m Robert Miras. Nice to meet you.
         </h1>
         <div className='flex justify-center'>
-          <h2 className='text-base w-full md:w-9/12	lg:w-6/12  font-normal leading-7'>
-            Since the beginning of my journey, I build new projects just to
-            tickle my brain and I spend a large amount of my free time exploring
-            the latest technology advancements in web development world. I treat
-            programming not only a type of profession or hobby, but programming
-            brings happiness when I'm creating applications that can help. Apart
-            from being a web developer, I enjoy most of my time being outdoors.
-            I was a choir member and I love to sing. It makes me feel relax
-            especially after long hours of facing computer.
+          <h2 className='w-full md:w-9/12	lg:w-6/12 about-me'>
+            Since I started my journey, I've developed numerous projects purely
+            for fun, and I now devote a large percentage of my free time
+            studying the most recent technological developments in the web
+            development industry. I don't just view programming as a job or a
+            hobby; when I make applications that can be useful, it makes me
+            happy. I also spend my time outside apart from being a developer. I
+            love to sing and I used to be in a chorus. I feel relieved,
+            especially after spending so much time in front of a computer.
           </h2>
         </div>
       </div>
@@ -31,7 +31,7 @@ const About = () => {
             <p className='font-light font-sm text-black mb-3'>
               PROGRAMMING LANGUAGES & TOOLS
             </p>
-            <p className='text-gray-600'>
+            <p className='text-gray-600 about-me'>
               I love doing front-end also but usually I explore back-end
               technology because it's a lot of fun for me, it shows how web
               functions especially with primary focus on{' '}
