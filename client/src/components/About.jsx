@@ -32,9 +32,7 @@ const About = () => {
               PROGRAMMING LANGUAGES & TOOLS
             </p>
             <p className='text-gray-600 about-me'>
-              I love doing front-end also but usually I explore back-end
-              technology because it's a lot of fun for me, it shows how web
-              functions especially with primary interest on{' '}
+            I enjoy doing front-end work as well, but I prefer to focus on back-end technology because it demonstrates how the web functions, particularly with a focus on{' '}
               <span className='italic'>PHP + Laravel</span>
             </p>
 

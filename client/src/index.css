@@ -213,7 +213,7 @@ h1 {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 1025px and up) */
+/* Large devices (large tablets & landscape IPAD, 1025px and up) */
 @media only screen and (min-width: 1025px) {
   .projects-section {
     margin-top: 350px;
@@ -232,7 +232,7 @@ h1 {
   }
 }
 
-/* Devices (large screen laptop, 1300 and up) */
+/* Large Devices (large screen laptops, 1300 and up) */
 @media (min-width: 1300px) {
   .projects-section {
     margin-top: 300px;
