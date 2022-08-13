@@ -34,35 +34,55 @@ const About = () => {
             <p className='text-gray-600 about-me'>
               I love doing front-end also but usually I explore back-end
               technology because it's a lot of fun for me, it shows how web
-              functions especially with primary focus on{' '}
+              functions especially with primary interest on{' '}
               <span className='italic'>PHP + Laravel</span>
             </p>
 
             <ul className='skills-icons flex justify-center items-center space-x-2 md:space-x-8'>
               <li className='skill-item'>
                 <i className='fab fa-html5'></i>
+                <p className='text-gray-600 skill-text'>HTML5</p>
               </li>
               <li className='skill-item'>
                 <i className='fab fa-css3'></i>
+                <p className='text-gray-600 skill-text'>CSS</p>
               </li>
 
               <li className='skill-item'>
                 <i className='fab fa-php'></i>
+                <p className='text-gray-600 skill-text'>PHP</p>
               </li>
               <li className='skill-item'>
                 <i className='fab fa-laravel'></i>
+                <p className='text-gray-600 skill-text'>Laravel</p>
+              </li>
+              <li className='skill-item'>
+                <i class='fas fa-database'></i>
+                <p className='text-gray-600 skill-text'>Database</p>
               </li>
               <li className='skill-item'>
                 <i className='fab fa-js-square'></i>
+                <p className='text-gray-600 skill-text'>Javascript</p>
               </li>
               <li className='skill-item'>
                 <i className='fab fa-react'></i>
+                <p className='text-gray-600 skill-text'>ReactJS</p>
+              </li>
+              <li className='skill-item'>
+                <i class='fab fa-vuejs'></i>
+                <p className='text-gray-600 skill-text'>VueJS</p>
               </li>
               <li className='skill-item'>
                 <i className='fab fa-node'></i>
+                <p className='text-gray-600 skill-text'>NodeJS</p>
               </li>
               <li className='skill-item'>
-                <i className='fab fa-git'></i>
+                <i class='fab fa-python'></i>
+                <p className='text-gray-600 skill-text'>Django</p>
+              </li>
+              <li className='skill-item'>
+                <i class='fab fa-git-alt'></i>
+                <p className='text-gray-600 skill-text'>Git</p>
               </li>
             </ul>
           </div>

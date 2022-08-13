@@ -73,6 +73,13 @@ h1 {
   color: #111;
 }
 
+.skill-text {
+  margin: 0%;
+  font-family: 'europa', sans-serif;
+  font-size: 0.9rem;
+  color: #141c3a;
+}
+
 .skill-item {
   font-size: 3rem;
   color: rgb(51 65 85);
@@ -190,6 +197,56 @@ h1 {
 /* Small devices (portrait tablets and large phones, 800px and up) */
 @media only screen and (min-width: 800px) {
   .projects-section {
+    margin-top: 400px;
+  }
+
+  .skills-card {
+    width: 75%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: -73%;
+    text-align: center;
+    height: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .projects-section {
+    margin-top: 350px;
+  }
+
+  .skills-card {
+    width: 75%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: -68%;
+    text-align: center;
+    height: auto;
+  }
+}
+
+/* Devices (large screen laptop, 1300 and up) */
+@media (min-width: 1300px) {
+  .projects-section {
     margin-top: 300px;
+  }
+
+  .skills-card {
+    width: 75%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: -43%;
+    text-align: center;
+    height: auto;
   }
 }
