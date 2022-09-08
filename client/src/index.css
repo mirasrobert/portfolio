@@ -40,7 +40,7 @@ h1 {
 
 .hero-caption {
   font-family: 'eurostile', sans-serif;
-  font-size: 2.6rem;
+  font-size: 2.7rem;
   color: #141c3a;
 }
 
@@ -211,6 +211,12 @@ h1 {
     text-align: center;
     height: auto;
   }
+
+  .hero-caption {
+    font-family: 'eurostile', sans-serif;
+    font-size: 2.5rem;
+    color: #141c3a;
+  }
 }
 
 /* Large devices (large tablets & landscape IPAD, 1025px and up) */
@@ -229,6 +235,12 @@ h1 {
     bottom: -68%;
     text-align: center;
     height: auto;
+  }
+
+  .hero-caption {
+    font-family: 'eurostile', sans-serif;
+    font-size: 2.5rem;
+    color: #141c3a;
   }
 }
 
