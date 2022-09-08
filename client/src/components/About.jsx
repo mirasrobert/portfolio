@@ -3,7 +3,7 @@ const About = () => {
     <section
       id='about-section'
       className='bg-violet-700 text-white w-full text-center py-12 px-12 relative'>
-      <div className='my-20'>
+      <div className='my-20' data-aos='fade-up'>
         <h1 className='text-3xl font-bold mb-5'>
           Hi, I’m Robert Miras. Nice to meet you.
         </h1>

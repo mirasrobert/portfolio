@@ -53,7 +53,9 @@ const Footer = () => {
       </div>
 
       {/* Create a contact form */}
-      <div className='container px-5 mx-auto sm:w-100 md:w-1/2'>
+      <div
+        className='container px-5 mx-auto sm:w-100 md:w-1/2'
+        data-aos='fade-right'>
         <div className='bg-white rounded-md shadow-md p-5'>
           <form onSubmit={onSubmit} method='POST'>
             <label className='block mb-6'>

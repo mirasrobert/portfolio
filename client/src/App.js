@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+
 import Navbar from './components/layouts/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -8,7 +10,17 @@ import Projects from './components/Projects'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css' // You can also use <link> for styles
+
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 80,
+      duration: 500,
+    })
+  }, [])
+
   return (
     <>
       <Navbar />

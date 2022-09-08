@@ -38,7 +38,7 @@ const Projects = () => {
         </p>
       </div>
 
-      <div className='container mx-auto px-5'>
+      <div className='container mx-auto px-5' data-aos='fade-up'>
         <p className='block md:hidden italic text-sm mb-4'>
           "Tap & Hold images to show details for mobile devices"
         </p>
