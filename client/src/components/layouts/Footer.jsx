@@ -29,7 +29,7 @@ const Footer = () => {
     }
 
     axios
-      .post('https://robertmiras.herokuapp.com/api/contact', data)
+      .post('https://robertmiras-portfolio.onrender.com/api/contact', data)
       .then((res) => {
         toast.success(res.data.message)
       })

@@ -6,7 +6,8 @@ import githubfinder from '../img/github_finder_website_screenshot.PNG'
 import socialite from '../img/SOCIALITE_SCREENSHOT.PNG'
 import housemarketplace from '../img/house_marketplace_screenshot.PNG'
 
-const downloadLink = 'https://robertmiras.herokuapp.com/download-resume'
+const BASE_URL = 'https://robertmiras-portfolio.onrender.com'
+const downloadLink = `${BASE_URL}/download-resume`
 
 const Projects = () => {
   const downloadResumeHandler = async (e) => {
