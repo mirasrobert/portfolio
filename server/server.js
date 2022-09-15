@@ -25,7 +25,13 @@ if (process.env.NODE_ENV === 'production') {
   )
 } else {
   app.get('/', (req, res) => {
-    res.send('API is running....')
+    res.status(200).json({
+      msg: 'API IS RUNNING',
+      api: {
+        contact: '/api/contact',
+        resume: '/download-resume',
+      },
+    })
   })
 }
 
