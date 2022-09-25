@@ -64,7 +64,7 @@ const Projects = () => {
 
               <div className='flex space-x-3'>
                 <a
-                  href='https://github-finder-vue.herokuapp.com/'
+                  href='https://githubfinder.cf/'
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
@@ -131,7 +131,7 @@ const Projects = () => {
 
               <div className='flex space-x-3'>
                 <a
-                  href='https://mewtronshop.herokuapp.com/'
+                  href='https://www.mewtronshop.ml/'
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
