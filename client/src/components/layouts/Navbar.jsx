@@ -103,7 +103,8 @@ const Navbar = () => {
               <a
                 className='text-sm block my-3 md:my-0 md:inline-block text-lg hover:text-violet-700'
                 href='https://drive.google.com/file/d/1q6sTPjXwPEXZpGE-aRN9sBLKOmqtm-VZ/view?usp=sharing'
-                target={'_blank'}>
+                target={'_blank'}
+                rel='noreferrer'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   fill='none'
