@@ -57,7 +57,7 @@ const About = () => {
                 <p className='text-gray-600 skill-text'>Laravel</p>
               </li>
               <li className='skill-item'>
-                <i class='fas fa-database'></i>
+                <i className='fas fa-database'></i>
                 <p className='text-gray-600 skill-text'>Database</p>
               </li>
               <li className='skill-item'>
@@ -69,7 +69,7 @@ const About = () => {
                 <p className='text-gray-600 skill-text'>ReactJS</p>
               </li>
               <li className='skill-item'>
-                <i class='fab fa-vuejs'></i>
+                <i className='fab fa-vuejs'></i>
                 <p className='text-gray-600 skill-text'>VueJS</p>
               </li>
               <li className='skill-item'>
@@ -77,11 +77,11 @@ const About = () => {
                 <p className='text-gray-600 skill-text'>NodeJS</p>
               </li>
               <li className='skill-item'>
-                <i class='fab fa-python'></i>
+                <i className='fab fa-python'></i>
                 <p className='text-gray-600 skill-text'>Django</p>
               </li>
               <li className='skill-item'>
-                <i class='fab fa-git-alt'></i>
+                <i className='fab fa-git-alt'></i>
                 <p className='text-gray-600 skill-text'>Git</p>
               </li>
             </ul>

@@ -34,7 +34,7 @@ const Projects = () => {
             className='text-violet-600'
             href='#!'>
             Download
-            <i class='ml-1 fas fa-cloud-download-alt'></i>
+            <i className='ml-1 fas fa-cloud-download-alt'></i>
           </a>
         </p>
       </div>

@@ -80,11 +80,11 @@ const Navbar = () => {
             </button>
           </div>
 
-          <div className='nav-links block md:flex items-center text-gray-800 hover:text-black text-md'>
+          <div className='nav-links block text-gray-800 hover:text-black text-md'>
             <div
               className={`${
                 toggleCollapse ? 'h-0 hidden' : 'h-auto'
-              } md:space-x-5`}>
+              } md:space-x-5 md:flex items-center`}>
               <a
                 className='text-sm block my-3 md:my-0 md:inline-block text-lg hover:text-violet-700'
                 href='#about-section'>
@@ -99,6 +99,24 @@ const Navbar = () => {
                 href='#projects-section'
                 className='bg-transparent border border-violet-700 border-2 text-violet-700 px-5 py-3 focus:outline-none focus:border-violet-100 focus:ring-violet-100 focus:ring focus:ring-violet-500 rounded-full hover:bg-violet-600 hover:text-white'>
                 My Projects
+              </a>
+              <a
+                className='text-sm block my-3 md:my-0 md:inline-block text-lg hover:text-violet-700'
+                href='https://drive.google.com/file/d/1q6sTPjXwPEXZpGE-aRN9sBLKOmqtm-VZ/view?usp=sharing'
+                target={'_blank'}>
+                <svg
+                  xmlns='http://www.w3.org/2000/svg'
+                  fill='none'
+                  viewBox='0 0 24 24'
+                  strokeWidth={1.5}
+                  stroke='currentColor'
+                  className='w-6 h-6'>
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    d='M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3'
+                  />
+                </svg>
               </a>
             </div>
           </div>
