@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 
+import cv from '../../img/cv.png'
+
 const Navbar = () => {
   const [toggleCollapse, setToggleCollapse] = useState(false)
   const [windowWidth, setWindowWidth] = useState(window.innerWidth)
@@ -105,7 +107,16 @@ const Navbar = () => {
                 href='https://drive.google.com/file/d/1q6sTPjXwPEXZpGE-aRN9sBLKOmqtm-VZ/view?usp=sharing'
                 target={'_blank'}
                 rel='noreferrer'>
-                <i class='fas fa-download text-gray-700 hover:text-violet-600 text-2xl'></i>
+                {/* <i class='fas fa-download text-gray-700 hover:text-violet-600 text-2xl'></i> */}
+                <div>
+                  <img
+                    className='cv-icon'
+                    width={43}
+                    height={43}
+                    src={cv}
+                    alt='<a href="https://www.flaticon.com/free-icons/cv" title="cv icons">Cv icons created by Freepik - Flaticon</a>'
+                  />
+                </div>
               </a>
             </div>
           </div>

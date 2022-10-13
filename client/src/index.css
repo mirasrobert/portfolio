@@ -23,6 +23,14 @@ h1 {
   font-family: 'europa', sans-serif;
 }
 
+.cv-icon {
+  transition: all 0.2s ease-in-out;
+}
+
+.cv-icon:hover {
+  transform: scale(1.1);
+}
+
 #about-section {
   height: 550px;
 }
