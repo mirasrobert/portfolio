@@ -6,6 +6,7 @@ import githubfinder from '../img/github_finder_website_screenshot.PNG'
 import socialite from '../img/SOCIALITE_SCREENSHOT.PNG'
 import housemarketplace from '../img/house_marketplace_screenshot.PNG'
 import pet_classifier from '../img/pet_classifier_screenshot.png'
+import IGClone from '../img/Instagram_Profile_Screenshot.png'
 
 const BASE_URL = 'https://robertmiras-portfolio.onrender.com'
 const downloadLink = `${BASE_URL}/download-resume`
@@ -46,6 +47,35 @@ const Projects = () => {
         </p>
 
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-4'>
+          <div className='project-card-items bg-white shadow-xl rounded-lg'>
+            <img
+              className='w-full h-full rounded-lg object-cover shadow-xl'
+              src={psbc}
+              alt='psbc'
+            />
+
+            <div className='project-caption text-white'>
+              <p>
+                Enrollment & Portal Website of Paete Science and Business
+                College, Inc), a private school in Paete, Laguna.
+              </p>
+              <small className='font-sm text-violet-500'>
+                Tools: PHP, Laravel, MySQL, JavaScript, HTML, CSS, Bootstrap,
+              </small>
+
+              <div className='flex space-x-3'>
+                <a
+                  href='https://iampsbc.com/'
+                  target={'_blank'}
+                  rel='noreferrer'
+                  className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
+                  <i className='fas fa-eye'></i> Demo
+                </a>
+              </div>
+            </div>
+            <div className='overlay'></div>
+          </div>
+
           <div className='project-card-items shadow-xl rounded-lg'>
             <img
               className='w-full h-full rounded-lg object-cover shadow-xl'
@@ -78,35 +108,6 @@ const Projects = () => {
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i className='fas fa-code'></i> Code
-                </a>
-              </div>
-            </div>
-            <div className='overlay'></div>
-          </div>
-
-          <div className='project-card-items bg-white shadow-xl rounded-lg'>
-            <img
-              className='w-full h-full rounded-lg object-cover shadow-xl'
-              src={psbc}
-              alt='psbc'
-            />
-
-            <div className='project-caption text-white'>
-              <p>
-                Enrollment & Portal Website of Paete Science and Business
-                College, Inc), a private school in Paete, Laguna.
-              </p>
-              <small className='font-sm text-violet-500'>
-                Tools: PHP, Laravel, MySQL, JavaScript, HTML, CSS, Bootstrap,
-              </small>
-
-              <div className='flex space-x-3'>
-                <a
-                  href='https://iampsbc.com/'
-                  target={'_blank'}
-                  rel='noreferrer'
-                  className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
-                  <i className='fas fa-eye'></i> Demo
                 </a>
               </div>
             </div>
@@ -226,7 +227,7 @@ const Projects = () => {
 
               <div className='flex space-x-3'>
                 <a
-                  href='https://django-pet-classification-production.up.railway.app/output/cat/'
+                  href='https://django-pet-classification-production.up.railway.app'
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
@@ -235,6 +236,32 @@ const Projects = () => {
 
                 <a
                   href='https://github.com/mirasrobert/django-pet-classification'
+                  target={'_blank'}
+                  rel='noreferrer'
+                  className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
+                  <i className='fas fa-code'></i> Code
+                </a>
+              </div>
+            </div>
+            <div className='overlay'></div>
+          </div>
+
+          <div className='project-card-items bg-white shadow-xl rounded-lg'>
+            <img
+              className='w-full h-full rounded-lg object-cover shadow-xl'
+              src={IGClone}
+              alt='IGClone'
+            />
+
+            <div className='project-caption text-white'>
+              <p>Instagram Clone built using Laravel and VueJS with Vite.</p>
+              <small className='font-sm text-violet-500'>
+                Tools: PHP, Laravel, VueJS, TailwindCSS
+              </small>
+
+              <div className='flex space-x-3'>
+                <a
+                  href='https://github.com/mirasrobert/instagram-laravel'
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
