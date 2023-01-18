@@ -9,14 +9,13 @@ const About = () => {
         </h1>
         <div className='flex justify-center'>
           <h2 className='w-full md:w-9/12	lg:w-6/12 about-me'>
-            Since I started my journey, I've developed numerous projects purely
-            for fun, and I now devote a large percentage of my free time
-            studying the most recent technological developments in the web
-            development industry. I don't just view programming as a job or a
-            hobby; when I make applications that can be useful, it makes me
-            happy. I also spend my time outside apart from being a developer. I
-            love to sing and I used to be in a chorus. I feel relieved,
-            especially after spending so much time in front of a computer.
+            I'm a Web developer, programmer, and student who likes to create web
+            applications and use programming to solve problems. I have excellent
+            technical abilities and a foundation in data structures, algorithms,
+            and programming from my academic studies. My passions are using
+            algorithms and programming to solve issues and explaining complex
+            concepts to non-technical stakeholders. I have the flexibility to
+            deliver software that performs well across verticals.
           </h2>
         </div>
       </div>
@@ -32,10 +31,7 @@ const About = () => {
               PROGRAMMING LANGUAGES & TOOLS
             </p>
             <p className='text-gray-600 about-me'>
-              I enjoy doing front-end work as well, but I prefer to focus on
-              back-end technology because it demonstrates how the web functions
-              under the hood, particularly with a focus on{' '}
-              <span className='italic'>PHP + Laravel</span>
+              Here are a few technologies I’ve been working with recently:
             </p>
 
             <ul className='skills-icons flex justify-center items-center space-x-2 md:space-x-8'>
