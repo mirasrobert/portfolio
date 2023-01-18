@@ -31,10 +31,18 @@ const Projects = () => {
         <p className='hero-subtitle-size'>
           Here are a few personal projects I've worked on recently. Want to get
           my CV?{' '}
-          <a
+          {/* <a
             onClick={downloadResumeHandler}
             className='text-violet-600'
             href='#!'>
+            Download
+            <i className='ml-1 fas fa-cloud-download-alt'></i>
+          </a> */}
+          <a
+            className='text-violet-600'
+            href='https://drive.google.com/file/d/1nO5_oUndXV9vHKw-mce49oOYnNtYQDZb/view?usp=share_link'
+            target={'_blank'}
+            rel='noreferrer'>
             Download
             <i className='ml-1 fas fa-cloud-download-alt'></i>
           </a>
