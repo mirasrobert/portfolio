@@ -1,12 +1,12 @@
-import axios from 'axios'
-import fileDownload from 'js-file-download'
-
 import psbc from '../img/psbc_website_screenshot.PNG'
 import githubfinder from '../img/github_finder_website_screenshot.PNG'
 import socialite from '../img/SOCIALITE_SCREENSHOT.PNG'
 import housemarketplace from '../img/house_marketplace_screenshot.PNG'
 import pet_classifier from '../img/pet_classifier_screenshot.png'
 import IGClone from '../img/Instagram_Profile_Screenshot.png'
+
+//import axios from 'axios'
+//import fileDownload from 'js-file-download'
 
 /* THIS IS A DOWNLOAD RESUME FROM SERVER
 const BASE_URL = 'https://robertmiras-portfolio.onrender.com'
