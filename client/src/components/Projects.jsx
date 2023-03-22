@@ -239,7 +239,7 @@ const Projects = () => {
 
               <div className='flex space-x-3'>
                 <a
-                  href='https://django-pet-classification-production.up.railway.app'
+                  href='https://github.com/mirasrobert/django-pet-classification'
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
