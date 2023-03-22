@@ -8,6 +8,7 @@ import housemarketplace from '../img/house_marketplace_screenshot.PNG'
 import pet_classifier from '../img/pet_classifier_screenshot.png'
 import IGClone from '../img/Instagram_Profile_Screenshot.png'
 
+/* THIS IS A DOWNLOAD RESUME FROM SERVER
 const BASE_URL = 'https://robertmiras-portfolio.onrender.com'
 const downloadLink = `${BASE_URL}/download-resume`
 
@@ -21,6 +22,8 @@ const Projects = () => {
 
     fileDownload(response.data, 'resume.pdf') // Download File
   }
+
+  */
 
   return (
     <section
