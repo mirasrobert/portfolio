@@ -11,8 +11,10 @@ import IGClone from '../img/Instagram_Profile_Screenshot.png'
 /* THIS IS A DOWNLOAD RESUME FROM SERVER
 const BASE_URL = 'https://robertmiras-portfolio.onrender.com'
 const downloadLink = `${BASE_URL}/download-resume`
+*/
 
 const Projects = () => {
+  /*
   const downloadResumeHandler = async (e) => {
     e.preventDefault()
 
@@ -22,7 +24,6 @@ const Projects = () => {
 
     fileDownload(response.data, 'resume.pdf') // Download File
   }
-
   */
 
   return (
