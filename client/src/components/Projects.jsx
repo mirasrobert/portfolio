@@ -136,7 +136,7 @@ const Projects = () => {
 
             <div className='project-caption text-white'>
               <p>
-                Online store with paypal payments integration and guest user
+                Online store with PayPal/Card payment integration and guest user
                 shopping.
               </p>
 
@@ -239,14 +239,6 @@ const Projects = () => {
               </small>
 
               <div className='flex space-x-3'>
-                <a
-                  href='https://github.com/mirasrobert/django-pet-classification'
-                  target={'_blank'}
-                  rel='noreferrer'
-                  className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
-                  <i className='fas fa-eye'></i> Demo
-                </a>
-
                 <a
                   href='https://github.com/mirasrobert/django-pet-classification'
                   target={'_blank'}
