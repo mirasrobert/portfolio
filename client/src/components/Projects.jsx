@@ -4,6 +4,7 @@ import socialite from '../img/SOCIALITE_SCREENSHOT.PNG'
 import housemarketplace from '../img/house_marketplace_screenshot.PNG'
 import pet_classifier from '../img/pet_classifier_screenshot.png'
 import IGClone from '../img/Instagram_Profile_Screenshot.png'
+import OnlineShop from '../img/MEWTRON_SCREENSHOT.png'
 
 //import axios from 'axios'
 //import fileDownload from 'js-file-download'
@@ -129,7 +130,7 @@ const Projects = () => {
           <div className='project-card-items bg-white shadow-xl rounded-lg'>
             <img
               className='w-full h-full rounded-lg object-cover shadow-xl'
-              src='https://raw.githubusercontent.com/mirasrobert/laravel8-ecommerce/main/public/img/WEBSITE_SCREENSHOT.png'
+              src={OnlineShop}
               alt='mewtron'
             />
 
