@@ -104,7 +104,7 @@ const Navbar = () => {
               </a>
               <a
                 className='text-sm block pt-3 md:pt-0 my-3 md:my-0 md:inline-block text-lg hover:text-violet-700'
-                href='https://drive.google.com/file/d/1EYc-6AySgnoNcDlhr0sJxu9r5a4o_Hdj/view?usp=sharing'
+                href='https://drive.google.com/file/d/10MEQGIPTEuZy9iRhNxvtx68AR1fJqgvc/view?usp=sharing'
                 target={'_blank'}
                 rel='noreferrer'>
                 {/* <i class='fas fa-download text-gray-700 hover:text-violet-600 text-2xl'></i> */}
