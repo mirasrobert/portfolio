@@ -9,13 +9,14 @@ const About = () => {
         </h1>
         <div className='flex justify-center'>
           <h2 className='w-full md:w-9/12	lg:w-6/12 about-me'>
-            I'm a Web developer, programmer, and student who likes to create web
-            applications and use programming to solve problems. I have excellent
-            technical abilities and a foundation in data structures, algorithms,
-            and programming from my academic studies. My passions are using
-            algorithms and programming to solve issues and explaining complex
-            concepts to non-technical stakeholders. I have the flexibility to
-            deliver software that performs well across verticals.
+            I am a skilled Web developer and programmer with a passion for
+            creating web applications and utilizing programming to solve
+            problems. I possess excellent technical abilities and have a strong
+            foundation in data structures, algorithms, and programming. My
+            expertise lies in using algorithms and programming to address
+            various challenges and effectively communicating complex concepts to
+            non-technical individuals. I have the versatility to deliver
+            high-performing software solutions across different industries.
           </h2>
         </div>
       </div>
