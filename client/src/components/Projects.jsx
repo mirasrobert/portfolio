@@ -73,7 +73,7 @@ const Projects = () => {
                 College, Inc), a private school in Paete, Laguna.
               </p>
               <small className='font-sm text-violet-500'>
-                Tools: PHP, Laravel, MySQL, JavaScript, HTML, CSS, Bootstrap,
+                {/* Tools: PHP, Laravel, MySQL, JavaScript, HTML, CSS, Bootstrap, */}
               </small>
 
               <div className='flex space-x-3'>
