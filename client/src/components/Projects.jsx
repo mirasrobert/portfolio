@@ -45,7 +45,7 @@ const Projects = () => {
           </a> */}
           <a
             className='text-violet-600'
-            href='https://drive.google.com/file/d/185ranqtC-yJUt-H8Ri75YJDCt31C4ALd/view?usp=sharing'
+            href='https://drive.google.com/file/d/1R18DLEOPchsj1h_uc7Gsq79y4N6Nwwn0/view?usp=sharing'
             target={'_blank'}
             rel='noreferrer'>
             Download
@@ -145,13 +145,13 @@ const Projects = () => {
               </small>
 
               <div className='flex space-x-3'>
-                <a
+                {/* <a
                   href='https://www.mewtronshop.ml/'
                   target={'_blank'}
                   rel='noreferrer'
                   className='text-violet-700 border border-violet-700 bg-transparent rounded-full py-2 px-3 w-1/2 mx-auto mt-3 hover:text-white hover:bg-violet-700'>
                   <i className='fas fa-eye'></i> Demo
-                </a>
+                </a> */}
 
                 <a
                   href='https://github.com/mirasrobert/laravel8-ecommerce/'
