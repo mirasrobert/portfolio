@@ -45,7 +45,7 @@ const Projects = () => {
           </a> */}
           <a
             className='text-violet-600'
-            href='https://drive.google.com/file/d/1R18DLEOPchsj1h_uc7Gsq79y4N6Nwwn0/view?usp=sharing'
+            href='https://drive.google.com/file/d/1S_-H407Ek5rotAnoOAwL1Bb4GOX8zMmC/view?usp=sharing'
             target={'_blank'}
             rel='noreferrer'>
             Download
